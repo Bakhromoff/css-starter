@@ -69,6 +69,7 @@ img {
 
 .button {
   cursor: pointer;
+  white-space: nowrap;
   display: inline-block;
   text-decoration: none;
   text-align: center;
