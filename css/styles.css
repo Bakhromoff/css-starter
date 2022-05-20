@@ -1,15 +1,13 @@
+/* FONTS */
+
+
 :root {
-  --text-color: #333333;
-  --text-black-color: #000000;
-  --accent-color-green: #0a775f;
-  --accent-color-green-80: rgba(10, 119, 95, 0.8);
-  --accent-color-green-60: rgba(10, 119, 95, 0.6);
-  --accent-color-light-brown: #c99b67;
-  --accent-color-light-brown-80: rgb(201, 155, 103, 0.8);
-  --accent-color-light-brown-60: rgb(201, 155, 103, 0.6);
-  --outline-color: var(--accent-color-green);
-  --light-background-color: #f8f8f2;
-  --header-footer-bg-color: #f3d7b7;
+  --text-color: ;
+  --text-black-color: ;
+  --accent-color: ;
+  --outline-color: ;
+  --body-bg-color: ;
+  --footer-bg-color: ;
 }
 
 html {
@@ -31,10 +29,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
 }
 
 img {
@@ -43,6 +42,7 @@ img {
 }
 
 /* CONTAINER */
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -52,8 +52,40 @@ img {
   margin-right: auto;
 }
 
+/* VISUALLY HIDDEN */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* BUTTON */
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  color: ;
+  border-radius: 28px;
+  background-color: ;
+  transition: ;
+}
+.button:hover {
+
+}
+.button:active {
+
+}
 /* MAIN CONTENT */
 
-.main-content {
+.main {
   flex-grow: 1;
 }
